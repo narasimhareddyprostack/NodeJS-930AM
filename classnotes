@@ -1,0 +1,26 @@
+Learn about Asynchronus programming
+1.callback
+2.Promise
+3.async and await
+
+import and export - es5,es6
+
+Node JS Core - moduels
+
+OS
+FS
+path
+http
+url
+
+3rd party Moduels
+npmjs.com
+=================
+express
+jwt
+cors
+morgan
+chalk
+body-parser
+mongoose
+mysql
