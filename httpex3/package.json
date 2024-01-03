@@ -1,0 +1,16 @@
+{
+  "name": "httpex3",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodmeon": "^0.0.1-security"
+  }
+}
