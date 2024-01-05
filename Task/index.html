@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+</head>
+<body>
+  <main class="container">
+    <div class="row">
+      <div class="col-4"></div>
+      <div class="col-4">
+        <div class="card">
+          <h1>To-Do list</h1>
+          <div class="card-body">
+            <input type="text" id="to-do" />
+            <button type="button" id="add-btn">Add</button>
+            <div id="list">
+              <span id="banner-pending" hidden><h2>Pending Task</h2></span>
+            </div>
+            <div id="completed-task">
+              <span id="banner-completed" hidden><h2>Completed Task</h2></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4"></div>
+    </div>
+    
+   
+  </main>
+  <script src="./task.js"></script>
+</body>
+</html>
