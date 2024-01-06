@@ -12,6 +12,10 @@ dotenv.config({path:'./config/dev.config'})
 let port = process.env.PORT 
 let host= process.env.HOST
 let server = http.createServer((req,resp)=>{
+    if(req.url ==="/nayana"){
+        resp.writeHead(301, { Location: "https://www.infosys.com/" });
+        resp.end();
+    }
     if(req.url==="/index" || req.url==="/"){
             //read index.html  file
             fs.readFile("static/views/index.html", 'utf-8',(err,data)=>{
